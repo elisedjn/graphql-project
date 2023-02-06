@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import Project from './pages/Project';
+import { AppContextWrapper } from './contexts/AppContext';
 
 const cache = new InMemoryCache({
   typePolicies: {

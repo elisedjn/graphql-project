@@ -10,7 +10,7 @@ const STATUS = {
   Completed: 'completed',
 };
 
-const EditProjectForm = ({ project }) => {
+const EditProjectModal = ({ project }) => {
   const [name, setName] = useState(project.name);
   const [description, setDescription] = useState(project.description);
   const [status, setStatus] = useState(STATUS[project.status]);
@@ -115,4 +115,4 @@ const EditProjectForm = ({ project }) => {
   );
 };
 
-export default EditProjectForm;
+export default EditProjectModal;
